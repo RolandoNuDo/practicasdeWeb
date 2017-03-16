@@ -8,31 +8,6 @@ body{
 	color: #181818;
 }
 
-nav {
-    list-style-type: none;
-    margin: 5px 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #5c6bc0;
-    text-align: center;
-}
-
-nav li {
-    float: left;
-    color: white;
-}
-
-nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    text-decoration: none;
-}
-
-nav li a:hover {
-    background-color: #111111;
-}
 
 
 div.glosario
@@ -104,12 +79,29 @@ ul li
     margin: 3px 0;
 }
 
-a, a:visited
-{
-    color: #6380a6;
+
+nav {
+    list-style-type: none;
+    margin: 5px 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5c6bc0;
+    text-align: center;
 }
 
-a:hover
-{
-    color: #2e4159;
+nav li {
+    float: left;
+    color: white;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111111;
 }
